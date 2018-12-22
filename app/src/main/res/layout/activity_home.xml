@@ -5,7 +5,10 @@
     <com.ramotion.expandingcollection.ECBackgroundSwitcherView
         android:id="@+id/ec_bg_switcher_element"
         android:layout_width="match_parent"
-        android:layout_height="140dp" />
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp" />
 
     <!--<com.ramotion.expandingcollection.ECPagerView-->
         <!--android:id="@+id/ec_pager_element"-->
@@ -17,7 +20,10 @@
         android:id="@+id/ec_pager_element"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
         ec:cardHeaderHeightExpanded="150dp"
         ec:cardHeight="200dp"
         ec:cardWidth="250dp" />
